@@ -103,7 +103,7 @@ nav ul{
     background-image: url('../images/developer.png'),url('../images/header_bg.png');
     background-repeat: no-repeat;
     background-position: top left, bottom right;
-    margin: 0 12px 0 70px;
+    margin: 0 0 0 45px;
     
 }
 .section-title{
@@ -119,10 +119,18 @@ nav ul{
     border-radius: 10px;
     padding:130px 150px;
     text-align: center;
-    
+
     
 }
 main{
     max-width: 1140px;
     margin: 130px auto 0px auto;
+}
+.about-items{
+    display: flex;
+    justify-content: space-around;
+}
+.item-description{
+    font-weight: bold;
+    font-size: 20px;
 }
